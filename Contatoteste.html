@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FLS STORE - Contato</title>
+<style>
+  /* Estilos gerais para o corpo da página */
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #000; /* Cor de fundo */
+    color: #fff; /* Cor do texto */
+  }
+
+  /* Estilo do cabeçalho */
+  header {
+    background-color: #000;
+    color: #f00;
+    text-align: center;
+    padding: 20px 0;
+  }
+
+  header h1 {
+    color: #fff; /* Mudando a cor do título para branco */
+  }
+
+  /* Estilo da navegação */
+  nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    background: #fff;
+  }
+
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+
+  nav ul li a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+  }
+
+  /* Estilo da seção principal */
+  section {
+    padding: 20px;
+    text-align: center;
+  }
+
+  /* Estilo do botão */
+  button {
+    padding: 10px 20px;
+    background-color: #7401df;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #000;
+  }
+
+  /* Estilo do rodapé */
+  footer {
+    text-align: center;
+    padding: 5px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+</style>
+</head>
+<body>
+  <header>
+    <h1>Flouvi Store</h1>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Menu</a></li>
+      <li><a href="sobreteste.html">Sobre</a></li>
+      <li><a href="contatoteste.html">Contato</a></li>
+    </ul>
+  </nav>
+
+  <section>
+    <h2>Contato</h2>
+    <p>Entre em contato conosco através do e-mail: flouvostore@gmail.com ou no nosso Discord:</p>
+    <button onclick="redirectToLink()">Clique Aqui para ir ao Discord.</button>
+  </section>
+
+  <footer>
+    <p>&copy; FLS - Flouvi Store </p>
+  </footer>
+
+  <script>
+    function redirectToLink() {
+      window.location.href = 'https://discord.gg/B6bjCPqYVa';
+    }
+    
+  </script>
+</body>
+</html>
